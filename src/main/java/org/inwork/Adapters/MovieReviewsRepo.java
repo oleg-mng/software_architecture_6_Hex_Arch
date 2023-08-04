@@ -29,9 +29,8 @@ public class MovieReviewsRepo implements IFetchMovieReviews {
 
     private void initialize() {
         this.movieReviewMap = new HashMap();
-        this.movieReviewMap.put("StarWars", Collections.singletonList(new MovieReview("1", 7.5,
-                "Good")));
-        this.movieReviewMap.put("StarTrack", Arrays.asList(new MovieReview("1", 9.5,
-                "Excellent"), new MovieReview("1", 8.5, "Good")));
+        this.movieReviewMap.put("StarWars", Collections.singletonList(new MovieReview("1", 7.5, "Good")));
+        this.movieReviewMap.put("StarTrack", Arrays.asList(new MovieReview("1", 9.5, "Excellent"),
+                new MovieReview("2", 8.5, "Good")));
     }
 }

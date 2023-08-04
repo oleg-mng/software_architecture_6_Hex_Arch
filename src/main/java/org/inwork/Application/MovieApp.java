@@ -11,7 +11,7 @@ import java.util.Random;
  * Создаем класс MovieApp с полями интерфейсов IFetchMovieReviews и IPrintMovieReviews
  * создаем конструктор с двумя параметрами
  *
- * используем метод filterRandomReviews для изменения листа List<MovieReview>
+ * используем метод filterRandomReviews для корректировки листа List<MovieReview>
  *
  * используем метод getRandomElement для получения рандомного номера
  */
